@@ -1,0 +1,210 @@
+/* 
+Colors to use: 
+#800000 is deep classy red;
+*/
+
+body {
+	background: #333 url('images/tipcalcfoodbackground.jpg') center center no-repeat;
+	background-size: cover;
+	/*color: #800000; */
+}
+
+
+#container {
+	width: 540px;
+	margin: 40px auto 0;
+	padding: 50px;
+	box-sizing: border-box;
+	background: url('images/containerphoto.jpg') top left repeat;
+	box-shadow: 0 10px 15px -8px #000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+	}
+
+h1 {
+	color: #800000;
+	margin: 0 0 20px;
+	padding: 0 0 8px;
+	border-bottom: solid 1px #8B0000;
+/* most likely will change color. */
+}
+
+form {
+	text-align: left;
+}
+
+
+#howMuchBill {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#howMuchTip {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+#peepsShare {
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 4px;
+}
+
+form input[type="text"] {
+	width: 70px;	
+}
+
+#otherTipAmount {
+	width: 50px;
+}
+
+
+#billAmount {
+	margin-bottom: 14px;
+}
+
+#otherTipAmount {
+	margin-bottom: 14px;
+}
+
+#numPeople {
+	margin-bottom: 14px;
+}
+
+#calculate {
+	display: block;
+	margin: auto; 
+	background: #6c2726;
+	color: white;
+	font-size: 25px;
+}
+
+#tipButton10 {
+	background: #6c2726;
+	color: white;
+	border: solid 1px #222;
+	font-size: 12px;
+	border-radius: 50%;
+}
+
+#tipButton15 {
+	background: #6c2726;
+	color: white;
+	border: solid 1px #222;
+	font-size: 12px;
+	border-radius: 50%;
+}
+
+#tipButton18 {
+	background: #6c2726;
+	color: white;
+	border: solid 1px #222;
+	font-size: 12px;
+	border-radius: 50%;
+}
+
+#tipButton20 {
+	background: #6c2726;
+	color: white;
+	border: solid 1px #222;
+	font-size: 12px;
+	border-radius: 50%;
+}
+
+#tipButton25 {
+	background: #6c2726;
+	color: white;
+	border: solid 1px #222;
+	font-size: 12px;
+	border-radius: 50%;
+}
+
+
+
+button:hover {
+	background-color: #4c2827;
+	border-bottom-color: #111;
+}
+
+button:active {
+	position: relative;
+	top: 1px;
+}
+
+#totalTip {
+	font-size: 17px;
+	margin-top: 15px;
+	color: #6c2726;
+}
+
+#totalTip:before {
+	content: "Tip Amount";
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+	color: #6c2726;
+}
+
+
+#billWithTip {
+	font-size: 17px;
+	margin-top: 15px;
+	color: #6c2726;
+}
+
+#billWithTip:before {
+	content: "Total Bill With Tip";
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+	color: #6c2726;
+}
+
+#billWithTipPerPerson {
+	font-size: 17px;
+	margin-top: 15px;
+	color: #6c2726;
+}
+
+#billWithTipPerPerson:before {
+	content: "Total Bill Per Person With Tip";
+	font-size: 17px;
+	font-weight: bold;
+	display: block;
+	text-transform: uppercase;
+	color: #6c2726;
+	}
+
+
+#tip{
+	font-size: 17px;
+	font-weight: bold;
+	color: #6c2726;
+	text-align: block;
+}
+
+#billWithTipUnder{
+	font-size: 17px;
+	font-weight: bold;
+	color: #6c2726;
+}
+
+#billWithTipPerPersonUnder{
+	font-size: 17px;
+	font-weight: bold;
+	color: #6c2726;
+}
+
+.dollarSign {
+	color: #6c2726;
+}
+
+#each {
+	color: #6c2726;
+	
+}

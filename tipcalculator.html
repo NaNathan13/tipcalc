@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Notes: 
+Remove br tags and replace with CSS
+
+Issue: With the current button system it will not show which tip amount the user has selected. They are forced to remember which tip amount they chose. While this is not a major issue, explore into how you can display the tip amount or show which button you current have selected. 
+
+Future ideas: reset button
+-->
+
+<html>
+<head>
+	<title>Nathan's Tip Calculator</title>
+	<link rel="stylesheet" type="text/css" href="tipcalculator.css">
+</head>
+<body>
+	<script src="tipcalculator.js"></script>
+	<div id="container">
+		
+		<h1>Tip Calculator</h1>
+		<div id="calculator">
+			<form>
+				<label id="howMuchBill">How much was your bill?</label><br>
+				$<input type="text" id="billAmount"><br>
+				<label id="howMuchTip">How much would you like to tip?</label><br>
+					<select id="tipAmount">
+						<option disabled selected value="0">-- Choose a tip amount --</option>
+						<option value="0.3">30%</option>
+						<option value="0.28">28%</option>
+						<option value="0.26">26%</option>
+						<option value="0.24">24%</option>
+						<option value="0.22">22%</option>
+						<option value="0.20">20%</option>
+						<option value="0.18">18%</option>
+						<option value="0.16">16%</option>
+						<option value="0.14">14%</option>
+						<option value="0.12">12%</option>
+						<option value="0.10">10%</option>
+						<option value="0.08">8%</option>
+						<option value="0.06">6%</option>
+
+					</select>
+
+				<br>
+				<br>
+				<label id="peepsShare">How many people are sharing the bill?</label><br>
+				<input type="text" id=numPeople> people
+				<button type="button" id="calculate" onclick="calc()">Calculate!</button>
+			</form>
+		</div> <!-- Calculator -->
+
+		<div id="totalTip" style="display:none">
+			<sup class="dollarSign">$</sup><span id="tip">0.00</span>
+			<small id="each">each</small>
+		</div> <!-- totalTip -->
+
+
+		<div id="billWithTip" style="display:none">
+			<sup class="dollarSign">$</sup><span id="billWithTipUnder">0.00</span>
+			<small id="each">each</small>
+		</div> <!-- Total bill with Tip -->
+
+		<div id="billWithTipPerPerson" style="display:none">
+			<sup class="dollarSign">$</sup> <span id="billWithTipPerPersonUnder">0.00</span>
+			<small id="each">each</small>
+		</div> <!-- Total per person with tip -->
+	</div> <!-- Container --> 
+</body>
+</html>
+
+
+
