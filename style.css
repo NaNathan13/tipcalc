@@ -4,7 +4,7 @@ Colors to use:
 */
 
 body {
-	background: #333 url('tipcalcfoodbackground.jpg') center center no-repeat;
+	background: #333 url('images/tipcalcfoodbackground.jpg') center center no-repeat;
 	background-size: cover;
 	/*color: #800000; */
 }
@@ -15,7 +15,7 @@ body {
 	margin: 40px auto 0;
 	padding: 50px;
 	box-sizing: border-box;
-	background: url('containerphoto.jpg') top left repeat;
+	background: url('images/containerphoto.jpg') top left repeat;
 	box-shadow: 0 10px 15px -8px #000;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
