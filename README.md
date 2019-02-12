@@ -1,2 +1,3 @@
 # tipcalc
-Simple tip calculator. Not finished. 
+Simple tip calculator.
+
