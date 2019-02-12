@@ -1,3 +1,0 @@
-# tipcalc
-Simple tip calculator.
-
